@@ -1,0 +1,1117 @@
+/*.conteiner {
+    width: 100%;
+    height: 15%;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    padding: 15px 10px;
+}
+
+.left {
+    font-size: 25px;
+}
+
+.right {
+    position: absolute;
+    left: 700px;
+    display: flex;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+/*--------------media -----------sm
+@media(max-width:320px){
+   header{
+    visibility: hidden;
+   }
+ 
+    .left {
+        visibility: hidden;  
+    }
+    .right{
+        visibility: hidden; 
+    }
+}
+
+@media(max-width:375px){
+    header{
+        visibility: hidden;
+       }
+    
+    .left {
+        visibility: hidden;  
+    }
+    .right{
+        visibility: hidden; 
+    }
+    .conteiner {
+        visibility: hidden;
+    }
+    
+}
+
+
+*/
+
+
+span {
+    color: red;
+}
+
+@media(max-width:320px) {
+    .conteiner {
+        position: relative;
+        width: 100%;
+        padding: 0px 2px;
+    }
+    .right {
+        position: absolute;
+        left: 70px;
+        font-size: 10px;
+        padding: 0px 2px;
+        overflow: hidden;
+    }
+    .left {
+        font-size: 10px;
+        position: absolute;
+        left: 17px;
+        padding: 0px 0px;
+    }
+}
+
+.text {
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+.cl {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.h {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.d1 {
+    position: relative;
+}
+
+p1 {
+    position: absolute;
+    left: 150px;
+}
+
+.m2 {
+    height: 450px;
+    width: 550px;
+}
+
+@media(max-width:320px) {
+    
+    .m2 {
+        width: 250px;
+        margin-left: 10px;
+    }
+    .p1 {
+        margin-right: 50px;
+    }
+}
+
+.b3 {
+    position: relative;
+width: 100%;
+height: 100%;
+}
+
+.b4 {
+    width: 100%;
+height: 100%;
+}
+
+.b4 p {
+    top: 150px;
+    left: 500px;
+    position: absolute;
+    color: red;
+}
+
+.b4 h1 {
+    top: 180px;
+    left: 400px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width:320px) {
+    .b3 {
+        position: relative;
+    }
+    .b4 p {
+        position: absolute;
+        left: 70px;
+    }
+    .b4 h1 {
+        position: absolute;
+        left: 70px;
+    }
+}
+
+@media(max-width:375px) {
+    .b3 {
+        position: relative;
+    }
+    .b4 p {
+        position: absolute;
+        left:150px;
+        top: 100px;
+    }
+    .b4 h1 {
+        position: absolute;
+        left: 70px;
+        top: 150px;
+        font-size: 30px;
+    }
+}
+
+
+@media(max-width:425px) {
+    .b3 {
+        position: relative;
+    }
+    .b4 p {
+        position: absolute;
+        left:150px;
+        top: 100px;
+    }
+    .b4 h1 {
+        position: absolute;
+        left: 70px;
+        top: 150px;
+        font-size: 30px;
+    }
+}
+
+
+.con h5 {
+    color: white;
+    margin-top: 200px;
+}
+
+.con h2 {
+    color: white;
+}
+
+.con p {
+    color: white;
+}
+
+.cc {
+    border: 2px;
+    background-color: white;
+}
+
+.mu {
+    border: 2px;
+    margin-top: 200px;
+}
+
+.n2 {
+    margin-left: 30px;
+}
+
+.n3 {
+    margin-top: 20px;
+}
+
+.n4 {
+    margin-left: 30px;
+}
+
+.n5 {
+    margin-top: 20px;
+    width: 190px;
+}
+
+.n6 {
+    margin-left: 30px;
+    width: 190px;
+}
+
+.n7 {
+    width: 420px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.hhh {
+    margin-bottom: 30px;
+    color: white;
+}
+.text{
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width:320px) {
+    .c1 {
+        margin-bottom: 20px;
+    }
+    .c2 {
+        margin-bottom: 20px;
+    }
+    .c3 {
+        margin-bottom: 20px;
+    }
+    .m2{
+        width:270px;
+    }
+}
+/*
+@media(max-width:375px) {
+
+    .m2 {
+        width: 350px;
+    }
+}
+*/
+@media(min-width:375px) {
+       .m2 {
+        width: 350px;
+    }
+}
+
+*/
+
+.x1 {
+   position: relative;
+height:auto ;
+}
+
+.x1 h6 {
+    position: absolute;
+    left: 490px;
+    bottom:  -13px;
+    color: red;
+visibility: hidden;
+}
+
+.x1 h1 {
+    position: absolute;
+    left: 400px;
+}
+
+@media(max-width:320px){
+    .x1{
+        position: relative;
+
+    }
+    .x1 h6{
+        
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+    color: red;
+    }
+    .x1 h1 {
+        position: absolute;
+        left: 110px;
+        bottom: -10px;
+        font-size: small;
+    }
+    
+}
+@media(max-width:425px){
+    .x1{
+        position: relative;
+
+    }
+    .x1 h6{
+        
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+    color: red;
+    }
+    .x1 h1 {
+        position: absolute;
+        left: 110px;
+        bottom: -10px;
+        font-size: small;
+    }
+
+
+
+}
+
+
+
+/*---------------
+
+.x2 {
+    position: relative;
+}
+
+.x2 .x3 {
+    position: absolute;
+    left: 420px;
+    bottom: 30px;
+}
+
+
+.hg {
+    position: absolute;
+    left: 550px;
+}
+
+.hgg {
+    position: absolute;
+    left: 650px;
+}
+
+.hggg {
+    position: absolute;
+    left: 750px;
+}
+
+.u1 {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+*/
+
+.cv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+
+.cvv {
+
+    width: 100%;
+    height: auto ;
+    position: absolute;
+    top: -150px;
+    left: -100px;
+    text-align: center;
+}
+.cx{   
+    width: 100%; 
+    height: auto;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+ position: absolute;   
+}
+.cx .q{
+    position: absolute;
+    left: 430px;
+}
+
+
+.cx .qq{
+    position: absolute;
+    left: 530px;
+}
+
+
+.cx .qqq{
+    position: absolute;
+    left: 620px;
+}
+
+.cvv .xz .qqq{
+    position: absolute;
+   left: 130px;
+}
+
+/*-------------mmedia sm---------------------------*/
+@media(max-width:320px){
+.cv{
+    position: relative;
+
+}
+
+.cv .cvv .cx .q{
+    position: absolute;
+    left: 100px;
+}
+
+
+.cv .cvv .cx .qq{
+    position: absolute;
+    left: 130px;
+}
+
+.cv .cvv .cx .qqq{
+    position: absolute;
+   left: 200px;
+}
+
+}
+
+@media(max-width:425px){
+    .cv{
+        position: relative;
+    
+    }
+    
+    .cv .cvv .cx .q{
+        position: absolute;
+        left: 70px;
+    }
+    
+    
+    .cv .cvv .cx .qq{
+        position: absolute;
+        left: 180px;
+    }
+    
+    .cv .cvv .cx .qqq{
+        position: absolute;
+       left: 260px;
+    }
+    
+
+}
+
+
+
+@media(max-width:375px){
+    .cv{
+        position: relative;
+    
+    }
+    
+    .cv .cvv .cx .q{
+        position: absolute;
+        left: 50px;
+    }
+    
+    
+    .cv .cvv .cx .qq{
+        position: absolute;
+        left: 150px;
+    }
+    
+    .cv .cvv .cx .qqq{
+        position: absolute;
+       left: 230px;
+    }
+    
+}
+
+
+
+/*@media---------mobile-lg------*/
+
+@media(max-width:425px) {
+    .cvv {
+        position: absolute;
+        left: 15px;
+        top: -10px;
+    }
+    .nm ul li .q {
+        position: absolute;
+        top: 150px;
+        left: -400px;
+    }
+    .nm ul li .qq {
+        position: absolute;
+        top: 150px;
+        left: -300px;
+    }
+    .nm ul li .qqq {
+        position: absolute;
+        top: 150px;
+        left: -220px;
+    }
+}
+
+.x5 {
+    position: relative;
+}
+
+.ff {
+    position: absolute;
+    left: 100px;
+    bottom: 60px;
+}
+
+.pf {
+    position: absolute;
+    bottom: -5px;
+    left: 105px;
+}
+
+.fff {
+    position: absolute;
+    left: 120px;
+    bottom: 170px;
+}
+
+.pf2 {
+    position: absolute;
+    bottom: 110px;
+    left: 120px;
+}
+
+.n {
+    margin-top: 20px;
+}
+
+.ffff {
+    position: absolute;
+    left: 120px;
+    bottom: 60px;
+}
+
+.pf3 {
+    position: absolute;
+    bottom: 1px;
+    left: 120px;
+}
+
+.nn {
+    margin-top: 20px;
+}
+
+.z {
+    position: absolute;
+    left: 120px;
+    top: -1px;
+}
+
+.po {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+
+.zz {
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+
+.po2 {
+    position: absolute;
+    left: 120px;
+    bottom: 120px;
+}
+
+.a {
+    margin-top: 20px;
+}
+
+.aa {
+    margin-top: 20px;
+}
+
+.zzz {
+    position: absolute;
+    left: 120px;
+    top: 250px;
+}
+
+.po3 {
+    position: absolute;
+    left: 120px;
+    bottom: -5px;
+}
+
+.y {
+    margin-top: 70px;
+    margin-left: 120px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media(max-width:320px) {
+    .b3 {
+        position: relative;
+    }
+    .b3 .bn1 {
+        position: absolute;
+        bottom: 20px;
+    }
+    .imges {
+        margin-top: 100px;
+    }
+    .i1 {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .i2 {
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .i3 {
+        width: 250px;
+    }
+}
+
+#ex {
+    margin-top: 10px;
+    width: 420px;
+}
+
+@media(max-width:320px) {
+    .n1 {
+        margin-left: 28px;
+        margin-bottom: 10px;
+    }
+    .n3 {
+        margin-left: 28px;
+        margin-bottom: 10px;
+    }
+    .n5 {
+        margin-left: 28px;
+        margin-bottom: 10px;
+    }
+    .n7 {
+        width: 250px;
+    }
+    #ex {
+        font-size: small;
+        width: 300px;
+    }
+}
+
+@media(max-width:425px) {
+    .n1 {
+        margin-left: 28px;
+        margin-bottom: 10px;
+    }
+    .n3 {
+        margin-left: 28px;
+        margin-bottom: 10px;
+    }
+    .n5 {
+        margin-left: 28px;
+        margin-bottom: 10px;
+    }
+    .n7 {
+        width: 250px;
+    }
+    #ex {
+        font-size: small;
+        width: 300px;
+    }
+}
+
+.x1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.x1 .x2 {}
+
+.x1 .x2 h6 {
+    margin-left: 40px;
+    color: red;
+}
+
+.x1 .x2 h1 {
+    margin-left: 20px;
+}
+
+@media(max-width:320px) {
+    .x1 {
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+    .x2 {
+        position: absolute;
+        width: 100%;
+        height: 50%;
+    }
+    .x2 h1 {
+        right: 200px;
+        bottom: 10px;
+        font-size: 20px;
+    }
+    .x1 .x2 h6 {
+        color: red;
+        font-size: 10px;
+    }
+}
+
+.x5 {
+    position: relative;
+    width: 100%;
+    height: 3vh;
+}
+
+.x5 .ff {
+    position: absolute;
+    top: -80px;
+}
+
+.x5 .g1 {
+    position: absolute;
+    top: -70px;
+}
+
+@media(max-width:320px) {
+    .x5 {
+        position: relative;
+    }
+    .ff {
+        position: absolute;
+        bottom: -100px;
+        font-size: small;
+    }
+    .pf {
+        position: absolute;
+        font-size: 11px;
+        top: -50px;
+    }
+    .x5 .w {
+        position: absolute;
+        top: -70px;
+    }
+}
+
+@media(max-width:425px) {
+    .x5 {
+        position: relative;
+    }
+    .ff {
+        position: absolute;
+        bottom: -100px;
+        font-size: small;
+    }
+    .pf {
+        position: absolute;
+        font-size: 11px;
+        top: -50px;
+    }
+    .x5 .g1 {
+        position: absolute;
+        top: -70px;
+    }
+}
+
+.x6 {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+}
+
+.x6 .fff {
+    position: absolute;
+    bottom: -10px;
+}
+
+.n {
+    position: absolute;
+}
+
+.pf2 {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+}
+
+@media(max-width:320px) {
+    .fff {
+        position: absolute;
+        font-size: small;
+        top: 10px;
+    }
+    .pf2 {
+        position: absolute;
+        font-size: 11px;
+        top: 30px;
+    }
+}
+
+@media(max-width:425px) {
+    .fff {
+        position: absolute;
+        font-size: small;
+        top: 10px;
+    }
+    .pf2 {
+        position: absolute;
+        font-size: 11px;
+        top: 30px;
+    }
+}
+
+.x7 {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+}
+
+.x7 .ffff {
+    position: absolute;
+    bottom: -100px;
+}
+
+.pf3 {
+    position: absolute;
+    bottom: -170px;
+}
+
+.nn {
+    position: absolute;
+    bottom: -170px;
+}
+
+@media(max-width:320px) {
+    .x7 {
+        position: relative;
+    }
+    .ffff {
+        position: absolute;
+        font-size: small;
+        top: 80px;
+    }
+    .pf3 {
+        position: absolute;
+        font-size: 11px;
+        top: 100px;
+    }
+    .nn {
+        position: absolute;
+        bottom: -170px;
+    }
+}
+
+@media(max-width:425px) {
+    .x7 {
+        position: relative;
+    }
+    .ffff {
+        position: absolute;
+        font-size: small;
+        top: 100px;
+    }
+    .pf3 {
+        position: absolute;
+        font-size: 11px;
+        top: 120px;
+    }
+    .nn {
+        position: absolute;
+        bottom: -170px;
+    }
+}
+
+.k {
+    position: relative;
+    width: 100%;
+    height: 2vh;
+}
+
+ .zr {
+    position: absolute;
+    left: 120px;
+    top: -80px;
+}
+
+.po {
+    position: absolute;
+    top: -40px;
+}
+
+.tu {
+    position: absolute;
+    top: -70px;
+}
+
+@media(max-width:320px) {
+    .k {
+        position: relative;
+        width: 100%;
+        
+    }
+     .z {
+        position: absolute;
+        font-size: small;
+        top: 100px;
+    }
+    .po {
+        position: absolute;
+        font-size: 11px;
+        top: 175px;
+    }
+    .k .tu {
+        position: absolute;
+        top: 175px;
+    }
+}
+
+@media(max-width:425px) {
+    .k {
+        position: relative;
+        width: 100%;
+        
+    }
+     .zr {
+        position: absolute;
+        font-size: small;
+        left: 120px;
+      top: 180px;
+    }
+    .po {
+        position: absolute;
+        font-size: 11px;
+        top: 205px;
+    }
+    .k .tu {
+        position: absolute;
+        top: 175px;
+    }
+}
+
+.kk {
+    position: relative;
+    width: 100%;
+    height: 5vh;
+}
+
+.zz {
+    position: absolute;
+    top: 9px;
+}
+
+.po2 {
+    position: absolute;
+    top: 50px;
+}
+
+@media(max-width:320px) {
+    .kk {
+        position: relative;
+    }
+    .zz {
+        font-size: small;
+        position: absolute;
+        top: 230px;
+    }
+    .po2 {
+        font-size: 11px;
+        position: absolute;
+        top: 250px;
+    }
+    .a {
+        position: absolute;
+        top: 250px;
+    }
+}
+
+@media(max-width:425px) {
+    .kk {
+        position: relative;
+    }
+    .zz {
+        font-size: small;
+        position: absolute;
+        top: 270px;
+    }
+    .po2 {
+        font-size: 11px;
+        position: absolute;
+        top: 290px;
+    }
+    .a {
+        position: absolute;
+        top: 250px;
+    }
+}
+
+.kkk {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+}
+
+.zzz {
+    position: absolute;
+    top: 100px;
+}
+
+.po3 {
+    position: absolute;
+    top: 150px;
+}
+
+.w {
+    position: absolute;
+    top: 100px;
+}
+
+@media(max-width:320px) {
+    .kkk {
+        position: relative;
+    }
+    .zzz {
+        position: absolute;
+        top: 300px;
+        font-size: small;
+    }
+    .po3 {
+        position: absolute;
+        top: 350px;
+        font-size: 11px;
+    }
+    .w {
+        position: absolute;
+        top: 350px;
+    }
+}
+
+@media(max-width:425px) {
+    .kkk {
+        position: relative;
+    }
+    .zzz {
+        position: absolute;
+        top: 350px;
+        font-size: small;
+    }
+    .po3 {
+        position: absolute;
+        top: 370px;
+        font-size: 11px;
+    }
+    .w {
+        position: absolute;
+        top: 350px;
+    }
+}
+
+@media(max-width:320px) {
+    .cv {
+        display: flex;
+    }
+}
+
+.cv {
+    display: flex;
+}
+
+@media(max-width:320px) {
+    #gg {
+        margin-top: 250px;
+    }
+}
